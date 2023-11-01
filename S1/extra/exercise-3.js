@@ -11,7 +11,7 @@ let smallFilm = [];
 let mediumFilm = [];
 let longFilm = [];
 
-for (movie of movies) {
+for (let movie of movies) {
     if(movie.durationInMinutes < 100) {
         smallFilm.push(movie);
     } else if (movie.durationInMinutes < 200) {
