@@ -9,6 +9,7 @@ const toys = [
 for (const toy of toys) {
     if(toy.name.includes('gato')) {
         let index = toys.indexOf(toy);
-        
+        delete toys[index];
     }
 }
+console.log(toys);
