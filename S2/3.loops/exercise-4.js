@@ -11,5 +11,4 @@ for (const toy of toys) {
         let index = toys.indexOf(toy);
         
     }
-    
 }

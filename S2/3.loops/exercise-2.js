@@ -7,4 +7,5 @@ const alien = {
 
 for(let property in alien) {
     console.log(property);
+    console.log(alien[property]);
 }
